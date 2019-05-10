@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="report_type_name_ids">
+        <item>Traffic Jam</item>
+        <item>Traffic Police Needed</item>
+        <item>Super Cop</item>
+        <item>Road Littering</item>
+        <item>Construction</item>
+        <item>Bad Roads</item>
+        <item>Faulty Signal</item>
+        <item>Excessive Honking</item>
+        <item>Moronic Driving</item>
+        <item>Easy Driving</item>
+    </string-array>
+
+    <string-array name="report_type_codes">
+        <item>8</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>22</item>
+    </string-array>
+    
+    <string-array name="report_type_image_ids_medium">
+        <item>@drawable/ic_indicator_auto_report_40_traffic_jam</item>
+        <item>@drawable/ic_indicator_auto_report_40_traffic_police_needed</item>
+        <item>@drawable/ic_indicator_auto_report_40_super_cop</item>
+        <item>@drawable/ic_indicator_auto_report_40_road_littering</item>
+        <item>@drawable/ic_indicator_auto_report_40_construction</item>
+        <item>@drawable/ic_indicator_auto_report_40_bad_roads</item>
+        <item>@drawable/ic_indicator_auto_report_40_faulty_signal</item>
+        <item>@drawable/ic_indicator_auto_report_40_excessive_honking</item>
+        <item>@drawable/ic_indicator_auto_report_40_moronic_driving</item>
+        <item>@drawable/ic_indicator_auto_report_40_easy_driving</item>
+    </string-array> 
+    
+    <string-array name="emotics_image_ids">
+        <item>@drawable/ic_indicator_emoticon_80_sad</item>
+        <item>@drawable/ic_indicator_emoticon_80_happy</item>
+        <item>@drawable/ic_indicator_emoticon_80_angry</item>
+        <item>@drawable/ic_indicator_emoticon_80_traffcked</item>
+        <item>@drawable/ic_indicator_emoticon_80_inspired</item>
+        <item>@drawable/ic_indicator_emoticon_80_running_late</item>
+        <item>@drawable/ic_indicator_emoticon_80_clever</item>
+        <item>@drawable/ic_indicator_emoticon_80_amused</item>
+    </string-array>
+    
+    <string-array name="emotics_name_details">
+        <item>Feeling Sad</item>
+        <item>Feeling Happy</item>
+        <item>Feeling Angry</item>
+        <item>Feeling Traffcked</item>
+        <item>Feeling Inspired</item>
+        <item>Running Late</item>
+        <item>Feeling Clever</item>
+        <item>Feeling Amused</item>
+    </string-array>
+
+    <string-array name="arr_pass_category">
+        <item>Distance wise</item>
+        <item>Fixed Amount Pass</item>
+    </string-array>
+
+</resources>

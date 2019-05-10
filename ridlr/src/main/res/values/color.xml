@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  Colors being used -->
+	<color name="col_brand">#FF00BECC</color>
+    <color name="color_brand_pressed">#FF333333</color>
+    <color name="col_brand_status">#FF00B3BF</color>
+	<color name="col_brand_20alpha">#3300BECC</color>
+    <color name="col_brand_add_money_bg">#FF07A6B6</color>
+
+    String colorPrimaryDark = "#FF00BECC";
+    String colorPrimary = "#FF00BECC";
+    String textColor = "#ffffff";
+
+    <color name="col_gray_00">#FF072126</color>
+    <color name="col_dark_grey_dialog_header">#404040</color>
+    <color name="col_gray_00_optional">#FF20343B</color>
+    <color name="col_gray_10">#19072126</color>
+    <color name="col_gray_20">#CC072126</color>
+    <color name="col_gray_30">#B3072126</color>
+    <color name="col_gray_50">#80072126</color>
+    <color name="col_gray_70">#4D072126</color>
+    <color name="col_gray_80">#33072126</color>
+    <color name="col_gray_90">#1A072126</color>
+    <color name="col_gray_93">#FFEDEFF0</color>
+    <color name="col_gray_lapsed">#FFB4BCBE</color>
+    
+    <color name="col_white_alpha70">#B3FFFFFF</color>
+    <color name="col_white_alpha50">#80FFFFFF</color>
+    <color name="col_white_alpha30">#4CFFFFFF</color>
+    <color name="col_white_alpha10">#19FFFFFF</color>
+    
+    <color name="col_error">#FFF62A4B</color>
+    <color name="col_success">#289f2b</color>
+    <color name="col_pending">#FFCD00</color>
+
+    <!--  Colors being used -->
+    
+    <color name="col_grey_90">#e5e5e5</color>
+    <color name="col_grey_95">#f2f2f2</color>
+    <color name="col_grey_70">#b2b2b2</color>
+    <color name="col_grey_80">#cccccc</color>
+    <color name="col_white_99alpha">#99FFFFFF</color>
+    <color name="col_black_80alpha">#80000000</color>
+    <color name="col_black_87alpha">#212121</color>
+    <color name="col_view_back_grey">#E6E6E6</color>
+    <color name="text_my_location">#00BECC</color>
+    <color name="transparent_bg">#FFFFFFFF</color>
+    <color name="trans_back">#00000000</color>
+    <color name="col_unusual_text">#8A6D3B</color>
+    <color name="col_unusual_text_back">#FCF8E3</color>
+    <color name="col_unusual_text_back_border">#faebcc</color>
+
+    <drawable name="transparent">#DDE6E6E6</drawable>
+    <drawable name="transparent_dark_grey">#DD353535</drawable>
+    <drawable name="col_header_back">#00BECC</drawable>
+    <drawable name="col_drawable_white">#FFFFFF</drawable>
+    <drawable name="col_drawable_grey_70">#b2b2b2</drawable>
+ 	<drawable name="col_tab_timetable_selected">@color/col_gray_00_optional</drawable>
+   
+    <color name="text_hint">#B2B2B2</color>
+    <color name="text_hint_red">#ED6464</color>
+    <color name="text_suggest">#808080</color>
+    <color name="text_true_black">#000000</color>
+    <color name="text_query_from">#808080</color>
+    <color name="text_query">#333333</color>
+    <color name="col_tab_border2">#B3B3B3</color>
+    <color name="col_fav_trips_back">#E0E0E0</color>
+    <color name="col_hop_on_back">#EFEFEF</color>
+    <color name="tmp_ui_blue">#00becc</color>
+    <color name="tmp_ui_green">#9ABF33</color>
+    <color name = "col_red_forridlrpoints">#D30000</color>
+    <color name = "col_green_forridlrpoints">#3BAA00</color>
+
+    <color name="col_delete_trip">#6D6D6D</color>
+    <color name="col_delete_trip_border">#5F5F5F</color>
+    <color name="col_empty_view_text">#878787</color>
+    <color name="red">#F9001B</color>
+    <color name="col_hop_on_home">#666666</color>
+    <color name="col_alert_count">#EE6464</color>
+
+    <drawable name="draw_separator_pager">#EFEFEF</drawable>
+    <drawable name="draw_view_back_grey">#E6E6E6</drawable>
+
+    <!-- Tab pager colors -->
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</color>
+    <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <!-- <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color> -->
+    <!-- <color name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</color> -->
+    <!-- <color name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</color> -->
+    
+    <!-- Tints -->
+    <color name="col_tint_google_plus">#AAD3342C</color>
+
+
+    <!-- UI window color -->
+
+    <color name="col_brand_dark">#00A7B3</color>
+    <color name="col_black_50">#80000000</color>
+    <color name="col_brand_normal">#00becc</color> <!-- value same as tmp_ui_blue -->
+    
+     <color name="col_black">#000000</color>
+
+    <!--planner detail-->
+    <color name="col_divider_recycler">#EEEFF1</color>
+    
+    <!--dialog traffline-->
+    <color name="color_grey_back">#FFedeff0</color>
+
+    <color name="color_grey_light">#FF333333</color>
+    <color name="orange">#ff9900</color>
+
+    <color name="lightblue_background">#E2F6F7</color>
+
+    <color name="col_orange_light_warm">#f6a623</color>
+
+    <color name="col_error_new">#A10606</color>
+    <color name="col_success_new">#06A107</color>
+    <color name="col_pending_new">#E65F0F</color>
+
+    <color name="grey_b">#BFBFBF</color>
+    <color name="brand_transparent">#1A00B9C6</color>
+    <color name="list_bg">#0F000000</color>
+
+    <color name="brand_color_dark">#bcd8da</color>
+    <color name="col_brand_heading_dark">#005960</color>
+    <color name="col_brand_msg_dark">#005960</color>
+
+    <color name="col_referral_bg">#deeded</color>
+
+    <color name="col_generic_success">#99BE6F</color>
+    <color name="col_generic_error">#E44E4E</color>
+</resources>

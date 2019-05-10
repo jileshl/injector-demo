@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "253320768759",
+    "firebase_url": "https://ridlr-93c97.firebaseio.com",
+    "project_id": "ridlr-93c97",
+    "storage_bucket": "ridlr-93c97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253320768759:android:908304b9350e1d56",
+        "android_client_info": {
+          "package_name": "com.ridlr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "253320768759-clm43l3guvjnh4p4fsdiqgb98a8n2bhm.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "253320768759-clm43l3guvjnh4p4fsdiqgb98a8n2bhm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDF3gpB6ml6r9sW360SDI_4PwkH-1AqPOc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

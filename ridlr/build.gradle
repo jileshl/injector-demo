@@ -1,0 +1,78 @@
+apply plugin: 'com.android.application'
+
+buildscript {
+    repositories {
+        mavenLocal()
+        google()
+        mavenCentral()
+        jcenter()
+    }
+    dependencies {
+        classpath "app.artyomd.injector:injector:0.3.6"
+    }
+}
+
+android {
+    signingConfigs {
+        debug {
+            storeFile file('../config/debug.keystore')
+
+        }
+    }
+    compileSdkVersion 28
+
+    defaultConfig {
+
+        applicationId 'com.ridlr'
+        minSdkVersion 16
+        targetSdkVersion 26
+
+        versionCode 281
+        versionName "5.8.7"
+
+        multiDexEnabled true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildTypes {
+        debug {
+            versionNameSuffix "-Debug"
+            debuggable true
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+            signingConfig signingConfigs.debug
+        }
+    }
+
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        jcenter()
+        flatDir {
+            dirs '../amazonlib/libs'
+        }
+    }
+}
+
+dependencies {
+    api androidSupport.design
+    api androidSupport.supportV4
+    api androidSupport.multiDex
+    api androidSupport.customTabs
+
+    api project(path: ":library")
+
+    implementation miscellaneousDependencies.constraintLayout
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation "app.artyomd.injector:injector-android:0.3.6"
+    implementation 'com.android.support:support-v4:28.0.0'
+    implementation 'com.google.android.gms:play-services-plus:16.0.0'
+}

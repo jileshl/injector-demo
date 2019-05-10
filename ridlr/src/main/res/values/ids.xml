@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <item name="et_last_name" type="id"/>
+        <item name="tv_home_mode_train" type="id"/>
+        <item name="tv_home_mode_bus" type="id"/>
+        <item name="tv_home_mode_metro" type="id"/>
+        <item name="tv_home_mode_mono" type="id"/>
+        <item name="tv_home_mode_tram" type="id"/>
+	<item name="fab_expand_menu_button" type="id"/>
+    	<item name="fab_label" type="id"/>
+</resources>

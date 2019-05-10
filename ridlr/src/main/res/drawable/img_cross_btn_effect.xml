@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <bitmap android:src="@drawable/ic_indicator_clear_content" />
+    </item>
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" >
+            <gradient
+                android:angle="90"
+                android:centerColor="@color/col_grey_90"
+                android:endColor="@color/col_grey_80"
+                android:startColor="@color/col_grey_80" />
+        </shape>
+    </item>
+
+</layer-list>
+
+<!-- <layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <bitmap android:src="@drawable/ic_indicator_clear" />
+    </item>
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" >
+            <gradient
+                android:angle="90"
+                android:centerColor="#880d0d0f"
+                android:endColor="#885d5d5e"
+                android:startColor="#880f0f10" />
+        </shape>
+    </item>
+
+</layer-list> -->
