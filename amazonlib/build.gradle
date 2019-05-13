@@ -14,7 +14,7 @@ buildscript {
     }
 }
 
-group='amazonpay.silentpay.AmazonPay'
+group ='com.github.jileshl'
 
 injectConfig{
     enabled = true
