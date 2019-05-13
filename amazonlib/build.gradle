@@ -16,7 +16,6 @@ buildscript {
 
 group='com.github.jileshl'
 
-
 injectConfig{
     enabled = true
     groups = [
