@@ -10,8 +10,7 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:3.4.0'
         classpath 'app.artyomd.injector:injector:0.3.6'
-        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1' // Add this line
-
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
     }
 }
 
@@ -24,12 +23,29 @@ allprojects {
         jcenter()
     }
 
+
     ext {
-        androidApplicationId = 'com.amazonlib'
-        androidVersionCode = 1
-        androidVersionName = "1.0"
-        testInstrumentationRunner = "android.support.test.runner.AndroidJUnitRunner"
-        testApplicationId = 'com.ridlr'
+        bintrayRepo = 'injectorDemo'
+        bintrayName = 'injector-demo'
+
+        publishedGroupId = 'com.injector'
+        libraryName = 'amazonlib'
+        artifact = 'amazonlib'
+
+        libraryDescription = 'AmazonLibrary'
+
+        siteUrl = 'https://github.com/jileshl/injector-demo'
+        gitUrl = 'https://github.com/jileshl/injector-demo.git'
+
+        libraryVersion = '2.0'
+
+        developerId = 'jileshl'
+        developerName = 'Jilesh Lakhani'
+        developerEmail = 'jileshl@gmail.com'
+
+        licenseName = 'The Apache Software License, Version 2.0'
+        licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+        allLicenses = ["Apache-2.0"]
     }
 }
 

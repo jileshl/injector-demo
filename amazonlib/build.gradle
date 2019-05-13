@@ -2,7 +2,6 @@ apply plugin: 'com.android.library'
 apply plugin: 'app.artyomd.injector'
 apply plugin: 'com.github.dcendents.android-maven'
 
-
 buildscript {
     repositories {
         google()
