@@ -28,7 +28,7 @@ allprojects {
         bintrayRepo = 'injectorDemo'
         bintrayName = 'injector-demo'
 
-        publishedGroupId = 'com.injector'
+        publishedGroupId = 'amazonpay.silentpay.AmazonPay'
         libraryName = 'amazonlib'
         artifact = 'amazonlib'
 
