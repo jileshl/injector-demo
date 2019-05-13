@@ -1,1 +1,1 @@
-include  ':ridlr', ':amazonlib', ':library'
+include  ':amazonlib'
