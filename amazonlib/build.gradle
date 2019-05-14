@@ -64,6 +64,7 @@ allprojects {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar','*.aar'])
+    implementation 'com.android.support:customtabs:28.0.0'
     /*debugImplementation files('libs/AmazonIdentityMobileAndroidSDK.aar')
     releaseImplementation files('libs/AmazonIdentityMobileAndroidSDK.aar')
 
