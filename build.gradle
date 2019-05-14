@@ -38,7 +38,7 @@ allprojects {
         siteUrl = 'https://github.com/jileshl/injector-demo'
         gitUrl = 'https://github.com/jileshl/injector-demo.git'
 
-        libraryVersion = '3.0'
+        libraryVersion = '7.0'
 
         developerId = 'jileshl'
         developerName = 'Jilesh Lakhani'
