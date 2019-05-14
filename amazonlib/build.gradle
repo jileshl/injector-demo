@@ -53,9 +53,14 @@ allprojects {
     }
 }
 
-configurations.maybeCreate("default")
-artifacts.add("default", file('AmazonIdentityMobileAndroidSDK.aar'))
-artifacts.add("default", file('PWAINSilentPayAndroidSDK.aar'))
+//artifacts {
+//    archives applicationBundle
+//}
+
+//configurations.maybeCreate("default")
+//artifacts.add("default", file('libs/AmazonIdentityMobileAndroidSDK.aar'))
+//artifacts.add("default", file('libs/PWAINSilentPayAndroidSDK.aar'))
+
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar','*.aar'])
