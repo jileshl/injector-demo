@@ -1,10 +1,10 @@
 package com.example.amazonlib;
 
 import android.content.Context;
-import android.content.Intent;
+import android.net.Uri;
 import android.support.customtabs.CustomTabsIntent;
+import android.support.v4.content.ContextCompat;
 
-import amazonpay.silentpay.AmazonPay;
 
 public class AmazonPayRidlr {
     Context context;
@@ -12,8 +12,16 @@ public class AmazonPayRidlr {
         this.context = context;
     }
 
-    public Intent getAuthIntent(CustomTabsIntent customTabsIntent){
-        return AmazonPay.getAuthorizationIntent(context, customTabsIntent);
+    public CustomTabsIntent getAuthIntent(){
+        String url = "https://ridlr.in";
+        CustomTabsIntent.Builder builderCustomTabs = new CustomTabsIntent.Builder();
+        CustomTabsIntent intentCustomTabs = builderCustomTabs.build();
+        intentCustomTabs.intent.setPackage("com.android.chrome");
+        builderCustomTabs.setShowTitle(true);
+        builderCustomTabs.setToolbarColor(ContextCompat.getColor(context, R.color.col_brand));
+        builderCustomTabs.enableUrlBarHiding();
+        intentCustomTabs.launchUrl(context, Uri.parse(url));
+        return intentCustomTabs;
     }
 
 }
